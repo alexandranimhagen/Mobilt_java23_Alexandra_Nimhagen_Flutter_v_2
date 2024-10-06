@@ -1,0 +1,28 @@
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+apk/
+.metadata
+*.iml
+*.lock
+*.log
+*.pyc
+*.swp
+.DS_Store
+
+# IntelliJ related
+.idea/
+
+# Visual Studio related
+.vscode/
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Icon?

@@ -1,0 +1,33 @@
+name: mobilt_java23_alexandra_nimhagen_flutter_v2
+description: "A new Flutter project."
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  http: ^0.13.5
+  shared_preferences: ^2.0.6  # Flyttade hit
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  flutter_lints: ^4.0.0
+
+# Config for flutter_launcher_icons to generate app icons
+flutter_icons:
+  android: true
+  ios: true
+  web: true
+  image_path: "assets/images/bild.png"
+  web_favicon: true
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/bild.png
